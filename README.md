@@ -1,3 +1,26 @@
+> **This is a personal fork.** The core project — protocols, coaching logic,
+> Intervals.icu integration — is by [CrankAddict](https://github.com/CrankAddict/section-11)
+> and released under MIT. This fork adapts it to my own setup.
+
+## What I changed in this fork
+
+- **Extended the data collection layer** — added fields to the activity payload
+  passed downstream, so the assistant works from a fuller picture of each
+  session than the default set provides
+- **Automated the sync** — a GitHub Actions workflow (`auto-sync.yml`) runs the
+  pull on a schedule instead of manual invocation
+- **Added export to Google Drive** (`push_to_drive.py`) plus automatic archiving
+  of the collected history
+- **Connected a Gemini assistant** through Google Cloud, exposed as a Gem-based
+  chat interface over the collected data
+
+Running continuously on my own training data since July 2026.
+
+*Note on the commit count: most commits in this fork come from the scheduled
+archiving workflow, not from hand-written code.*
+
+---
+
 # Section 11 — AI Coaching Protocol
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
