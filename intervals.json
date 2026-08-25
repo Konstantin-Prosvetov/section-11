@@ -1,58 +1,10 @@
 {
-  "generated_at": "2026-08-24T23:44:31.742842",
+  "generated_at": "2026-08-25T00:00:00.224390",
   "version": "3.112",
   "script_hash": "53315ab1c4ca",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i174368965",
-      "date": "2026-08-10",
-      "type": "Run",
-      "name": "Quan Ngu Hanh Son - 0\u041d/\u041a\u041f/10*400/10.08",
-      "interval_summary": [
-        "1x 80s 563w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3346,
-          "avg_power": 326,
-          "max_power": 611,
-          "avg_hr": 148,
-          "max_hr": 178,
-          "avg_cadence": 80.98164,
-          "zone": 1,
-          "training_load": 33.035957,
-          "decoupling": 20.650404
-        },
-        {
-          "type": "WORK",
-          "label": "80s@563w98rpm",
-          "duration_secs": 80,
-          "avg_power": 563,
-          "max_power": 655,
-          "avg_hr": 173,
-          "max_hr": 186,
-          "avg_cadence": 98.3125,
-          "zone": 4,
-          "training_load": 1.6691358,
-          "decoupling": 5.0710845
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 127,
-          "avg_power": 77,
-          "max_power": 635,
-          "avg_hr": 156,
-          "max_hr": 186,
-          "avg_cadence": 48.582676,
-          "zone": 1,
-          "training_load": 0.7232,
-          "decoupling": -1.2325174
-        }
-      ]
-    },
     {
       "activity_id": "i175132891",
       "date": "2026-08-12",
