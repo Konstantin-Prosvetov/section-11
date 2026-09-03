@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:46:28.636043",
+  "generated_at": "2026-09-03T14:02:46.935724",
   "version": "3.112",
   "script_hash": "53315ab1c4ca",
   "scan_hours": 72,
@@ -241,6 +241,27 @@
           "zone": 1,
           "training_load": 11.691944,
           "decoupling": -8.697603
+        }
+      ]
+    },
+    {
+      "activity_id": "i182856881",
+      "date": "2026-09-03",
+      "type": "Run",
+      "name": "Quan Ngu Hanh Son \u0411\u0435\u0433",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3120,
+          "avg_power": 405,
+          "max_power": 558,
+          "avg_hr": 166,
+          "max_hr": 183,
+          "avg_cadence": 88.933334,
+          "zone": 2,
+          "training_load": 35.55263,
+          "decoupling": 18.174274
         }
       ]
     }
