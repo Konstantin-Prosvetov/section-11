@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:42:43.955859",
+  "generated_at": "2026-09-11T14:38:03.093419",
   "version": "3.112",
   "script_hash": "53315ab1c4ca",
   "scan_hours": 72,
@@ -315,6 +315,27 @@
           "zone": 1,
           "training_load": 0.16078125,
           "decoupling": 65.24676
+        }
+      ]
+    },
+    {
+      "activity_id": "i185621782",
+      "date": "2026-09-11",
+      "type": "Run",
+      "name": "Quan Son Tra \u0411\u0435\u0433",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2374,
+          "avg_power": 248,
+          "max_power": 579,
+          "avg_hr": 116,
+          "max_hr": 164,
+          "avg_cadence": 78.88808,
+          "zone": 1,
+          "training_load": 10.62,
+          "decoupling": -5.465236
         }
       ]
     }
